@@ -16,10 +16,10 @@ public class Ejemplo01 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // 
+       //
         Scanner entrada = new Scanner(System.in);
-        String ciudad;
-        String pais;
+        String ciudad = null;
+        String pais = null;
         System.out.printf("%s%s", ciudad, pais);
     }
     
