@@ -34,19 +34,20 @@ package ejemplosrepaso;
 public class Ejemplo07 {
     public static void main(String[] args) {
         
-        int operacion01;
+      int operacion01;
         int operacion02;
         int tabla = 10;
         String cadena01 = "";
+        String cadena02 = "";
         for (int i = 1; i <= 5; i++) {
             operacion01 = tabla + i;
-            operacion02 = tabla * i;
             cadena01 = String.format("%s%d + %d = %d\n", cadena01, 
                     tabla, i, operacion01);
-            cadena01 = String.format("%s%d * %d = %d\n", cadena01, 
+             operacion02 = tabla * i;
+            cadena02 = String.format("%s%d * %d = %d\n", cadena02, 
                     tabla, i, operacion02);
         }
         
-        System.out.printf("%s\n", cadena01);
+        System.out.printf("%s\n%s", cadena01, cadena02);
     }
 }
